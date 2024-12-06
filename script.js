@@ -104,7 +104,7 @@ function update() {
 
 function remove(id) {
     if (confirm("Are you sure you want to delete this record?")) {
-        data = data.filter((item) => item.id !== id);
+        data = data.filter((record) => record.id !== id);
         readAll();
     }
 }
