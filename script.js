@@ -70,7 +70,8 @@ function create() {
 
 
 function edit(id) {
-    document.querySelector(".updateFrom").style.display = "block"
+    document.querySelector(".updateFrom").style.display = "block";
+    document.querySelector(".delBtn").disabled = "disable";
     let obj = data.find((record) => record.id === id);
 
     document.querySelector("#uname").value = obj.Name;
