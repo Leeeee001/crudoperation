@@ -68,10 +68,21 @@ function create() {
     readAll();
 }
 
+let isEditing = false;
+
+function toggleDeleteButtons(disable) {
+    const deleteButtons = document.querySelectorAll(".delBtn");
+    deleteButtons.forEach((button) => {
+        button.disabled = disable;
+    });
+}
+
 
 function edit(id) {
+    isEditing = true; 
+    toggleDeleteButtons(true); 
+
     document.querySelector(".updateFrom").style.display = "block";
-    document.querySelector(".delBtn").disabled = "disable";
     let obj = data.find((record) => record.id === id);
 
     document.querySelector("#uname").value = obj.Name;
@@ -100,6 +111,9 @@ function update() {
 
     readAll();
     }
+    
+    isEditing = false; 
+    toggleDeleteButtons(false); 
 }
 
 
