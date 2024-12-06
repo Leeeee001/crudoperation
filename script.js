@@ -22,7 +22,7 @@ const readAll = () => {
         elem += `<tr>
             <td>${record.Name}</td>
             <td>${record.Email}</td>
-            <td><button class= "editBtn" onClick= "edit(${record.id})">Edit</button>
+            <td><button class= "editBtn" onClick= "edit(${record.id})">Edit</button><br/><br/>
             <button class= "delBtn" onClick= "remove(${record.id})">Delete</button></td>
         </tr>`
     }))
