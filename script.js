@@ -2,18 +2,14 @@
 let data = [
     {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
     {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"},
-    {id: 1, Name: "Tanmoy", Email: "tanmoy@gmail.com"},
-    {id: 2, Name: "Shilpa", Email: "shilpa@gmail.com"}
+    {id: 3, Name: "Krishna", Email: "krishna@gmail.com"},
+    {id: 4, Name: "Shyam", Email: "shyam@gmail.com"},
+    {id: 5, Name: "Ram", Email: "ram@gmail.com"},
+    {id: 6, Name: "Sunny", Email: "sunny@gmail.com"},
+    {id: 7, Name: "Jhon", Email: "jhon@gmail.com"},
+    {id: 8, Name: "Adam", Email: "adam@gmail.com"},
+    {id: 9, Name: "Tammy", Email: "tammy@gmail.com"},
+    {id: 10, Name: "Shami", Email: "shami@gmail.com"}
 ]
 
 
